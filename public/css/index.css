@@ -1,0 +1,63 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+/* style.css */
+/* ... (existing styles) ... */
+
+button.move-up,
+button.move-down {
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th {
+    text-align: center;
+    font-weight: bold;
+}
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+}
+.stroked {
+    text-decoration: line-through; /* Example: Strike through the text */
+    /* Add other styling properties as needed */
+}
